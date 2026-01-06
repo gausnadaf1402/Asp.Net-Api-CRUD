@@ -27,7 +27,7 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
 
-app.UseCors("AllowReact");// To Add in React
+app.UseCors("AllowReact");// To Attach in React
 app.UseAuthorization();
 app.MapControllers();
 app.Run();
